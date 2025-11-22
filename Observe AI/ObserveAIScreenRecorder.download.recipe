@@ -58,6 +58,10 @@
             </dict>
             <dict>
                 <key>Processor</key>
+                <string>EndOfCheckPhase</string>
+            </dict>
+            <dict>
+                <key>Processor</key>
                 <string>com.github.grahampugh.recipes.commonprocessors/PkgInfoReader</string>
                 <key>Arguments</key>
                 <dict>
@@ -75,10 +79,6 @@
                     <key>pkg_path</key>
                     <string>%RECIPE_CACHE_DIR%/downloads/%NAME%-%version%-%ARCH%.pkg</string>
                 </dict>
-            </dict>
-            <dict>
-                <key>Processor</key>
-                <string>EndOfCheckPhase</string>
             </dict>
             <dict>
                 <key>Arguments</key>
